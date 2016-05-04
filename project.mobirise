@@ -1,0 +1,505 @@
+{
+  "settings": {
+    "currentPage": "photography.html",
+    "version": "2.0"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Gabe Virnig | Creative Portfolio",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "analytics": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#333740"
+            },
+            ".mbr-navbar__section": {}
+          },
+          "_name": "menu",
+          "_anchor": "menu-24",
+          "_params": {
+            "color": "#333740",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": false,
+            "showButtons": false
+          },
+          "logo": "{PROJECT_IMAGES}logo.png",
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"http://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"photography.html\">PHOTOGRAPHY</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"video.html\">VIDEO</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"http://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "header1",
+          "_anchor": "header1-1",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "{PROJECT_IMAGES}gabe-with-red4000x2667-180.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "center",
+            "overlay": true,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": false
+          },
+          "title": "GABE VIRNIG",
+          "text": "CREATIVE PORTFOLIO",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"http://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"http://mobirise.com\">FOR MAC</a>"
+        },
+        {
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "text-align": "center !important"
+            }
+          },
+          "_anchor": "footer1-25",
+          "_params": {
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "{PROJECT_IMAGES}bg3.jpg",
+            "bgColor": "#333740",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "<br><a href=\"index.html\" class=\"text-danger\">HOME</a> | <a href=\"photography.html\" class=\"text-danger\">PHOTOGRAPHY</a> | <a href=\"video.html\" class=\"text-danger\">VIDEO</a><br><br>2015&nbsp;Ⓒ GABE VIRNIG"
+        }
+      ]
+    },
+    "photography.html": {
+      "settings": {
+        "title": "Gabe Virnig | Photography",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "analytics": ""
+      },
+      "components": [
+        {
+          "_name": "header1",
+          "_anchor": "header1-9",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "{PROJECT_IMAGES}gabe-with-red4000x2667-180.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "center",
+            "overlay": true,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": false
+          },
+          "title": "GABE VIRNIG",
+          "text": "CREATIVE PORTFOLIO",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"http://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"http://mobirise.com\">FOR MAC</a>"
+        },
+        {
+          "_name": "header3",
+          "_styles": {
+            "H3": {
+              "text-align": "center !important"
+            }
+          },
+          "_anchor": "header3-10",
+          "title": "PHOTOGRAPHY",
+          "_params": {
+            "showMeta": false
+          },
+          "meta": "By John Smith posted July 30, 2015"
+        },
+        {
+          "_name": "gallery1",
+          "_params": {
+            "images": [
+              {
+                "thumb": "{PROJECT_IMAGES}284272x2848_1802000x1333_169.jpg",
+                "image": "{PROJECT_IMAGES}284272x2848_180.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}274272x2848_1652000x1333_168.jpg",
+                "image": "{PROJECT_IMAGES}274272x2848_165.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}264272x2848_1962000x1333_122.jpg",
+                "image": "{PROJECT_IMAGES}264272x2848_196.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}254272x2848_1492000x1333_167.jpg",
+                "image": "{PROJECT_IMAGES}254272x2848_149.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}243685x2457_1512000x1334_161.jpg",
+                "image": "{PROJECT_IMAGES}243685x2457_151.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}234272x2848_1632000x1333_187.jpg",
+                "image": "{PROJECT_IMAGES}234272x2848_163.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}224272x2848_1662000x1333_124.jpg",
+                "image": "{PROJECT_IMAGES}224272x2848_166.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}214272x2848_1802000x1333_183.jpg",
+                "image": "{PROJECT_IMAGES}214272x2848_180.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}204272x2848_1712000x1333_160.jpg",
+                "image": "{PROJECT_IMAGES}204272x2848_171.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}194272x2848_1642000x1333_152.jpg",
+                "image": "{PROJECT_IMAGES}194272x2848_164.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}184081x2719_1902000x1333_160.jpg",
+                "image": "{PROJECT_IMAGES}184081x2719_190.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}172002x1335_1492000x1334_131.jpg",
+                "image": "{PROJECT_IMAGES}172002x1335_149.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}164272x2848_1232000x1333_199.jpg",
+                "image": "{PROJECT_IMAGES}164272x2848_123.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}154272x2848_1942000x1333_111.jpg",
+                "image": "{PROJECT_IMAGES}154272x2848_194.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}143458x2306_1252000x1334_124.jpg",
+                "image": "{PROJECT_IMAGES}143458x2306_125.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}134272x2848_1512000x1333_115.jpg",
+                "image": "{PROJECT_IMAGES}134272x2848_151.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}124272x2848_1132000x1333_139.jpg",
+                "image": "{PROJECT_IMAGES}124272x2848_113.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}114272x2848_1672000x1333_197.jpg",
+                "image": "{PROJECT_IMAGES}114272x2848_167.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}104272x2848_1192000x1333_176.jpg",
+                "image": "{PROJECT_IMAGES}104272x2848_119.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}094272x2848_1122000x1333_133.jpg",
+                "image": "{PROJECT_IMAGES}094272x2848_112.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}084177x2785_1992000x1333_118.jpg",
+                "image": "{PROJECT_IMAGES}084177x2785_199.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}074272x2848_1922000x1333_135.jpg",
+                "image": "{PROJECT_IMAGES}074272x2848_192.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}064272x2848_1742000x1333_100.jpg",
+                "image": "{PROJECT_IMAGES}064272x2848_174.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}054272x2848_1952000x1333_171.jpg",
+                "image": "{PROJECT_IMAGES}054272x2848_195.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}044272x2848_1392000x1333_133.jpg",
+                "image": "{PROJECT_IMAGES}044272x2848_139.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}034272x2848_1392000x1333_132.jpg",
+                "image": "{PROJECT_IMAGES}034272x2848_139.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}024272x2848_1372000x1333_145.jpg",
+                "image": "{PROJECT_IMAGES}024272x2848_137.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}014272x2848_1572000x1333_171.jpg",
+                "image": "{PROJECT_IMAGES}014272x2848_157.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#efefef",
+            "fullWidth": true,
+            "noGutter": false
+          },
+          "_anchor": "gallery1-11",
+          "articleLayout": false
+        },
+        {
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#333740"
+            },
+            ".mbr-navbar__section": {}
+          },
+          "_name": "menu",
+          "_anchor": "menu-17",
+          "_params": {
+            "color": "#333740",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": false,
+            "showButtons": false
+          },
+          "logo": "{PROJECT_IMAGES}logo.png",
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"http://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"photography.html\">PHOTOGRAPHY</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"video.html\">VIDEO</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"http://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "text-align": "center !important"
+            }
+          },
+          "_anchor": "footer1-20",
+          "_params": {
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "{PROJECT_IMAGES}bg3.jpg",
+            "bgColor": "#333740",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "<br><a href=\"index.html\" class=\"text-danger\">HOME</a> | <a href=\"photography.html\" class=\"text-danger\">PHOTOGRAPHY</a> | <a href=\"video.html\" class=\"text-danger\">VIDEO</a><br><br>2015&nbsp;Ⓒ GABE VIRNIG"
+        }
+      ]
+    },
+    "video.html": {
+      "settings": {
+        "title": "Gabe Virnig | Video",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "analytics": ""
+      },
+      "components": [
+        {
+          "_name": "header1",
+          "_anchor": "header1-21",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "{PROJECT_IMAGES}gabe-with-red4000x2667-180.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "center",
+            "overlay": true,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": false
+          },
+          "title": "GABE VIRNIG",
+          "text": "CREATIVE PORTFOLIO",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"http://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"http://mobirise.com\">FOR MAC</a>"
+        },
+        {
+          "_name": "header3",
+          "_styles": {
+            "H3": {
+              "text-align": "center !important"
+            },
+            "P": {
+              "color": "#ffffff !important"
+            }
+          },
+          "_anchor": "header3-22",
+          "title": "VIDEO",
+          "_params": {
+            "showMeta": true
+          },
+          "meta": "&nbsp;"
+        },
+        {
+          "_styles": {},
+          "image": "{PROJECT_IMAGES}slide3.jpg",
+          "_name": "video2",
+          "_anchor": "video2-28",
+          "_params": {
+            "video": {
+              "url": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "showText": false
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_styles": {},
+          "image": "{PROJECT_IMAGES}slide3.jpg",
+          "_name": "video2",
+          "_anchor": "video2-29",
+          "_params": {
+            "video": {
+              "url": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "showText": false
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_styles": {},
+          "image": "{PROJECT_IMAGES}slide3.jpg",
+          "_name": "video2",
+          "_anchor": "video2-30",
+          "_params": {
+            "video": {
+              "url": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "showText": false
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_styles": {},
+          "image": "{PROJECT_IMAGES}slide3.jpg",
+          "_name": "video2",
+          "_anchor": "video2-31",
+          "_params": {
+            "video": {
+              "url": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "showText": false
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#333740"
+            },
+            ".mbr-navbar__section": {}
+          },
+          "_name": "menu",
+          "_anchor": "menu-24",
+          "_params": {
+            "color": "#333740",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": false,
+            "showButtons": false
+          },
+          "logo": "{PROJECT_IMAGES}logo.png",
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"http://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"photography.html\">PHOTOGRAPHY</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"video.html\">VIDEO</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"http://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "text-align": "center !important"
+            }
+          },
+          "_anchor": "footer1-25",
+          "_params": {
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "{PROJECT_IMAGES}bg3.jpg",
+            "bgColor": "#333740",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "<br><a href=\"index.html\" class=\"text-danger\">HOME</a> | <a href=\"photography.html\" class=\"text-danger\">PHOTOGRAPHY</a> | <a href=\"video.html\" class=\"text-danger\">VIDEO</a><br><br>2015&nbsp;Ⓒ GABE VIRNIG"
+        }
+      ]
+    }
+  }
+}
