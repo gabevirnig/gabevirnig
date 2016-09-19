@@ -28,6 +28,11 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
   <link rel="stylesheet" href="assets/mobirise/css/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
+  <script> 
+    $(function(){
+      $("#footerpage").load("inserts/footer.html"); 
+    });
+  </script> 
   
 </head>
 <body>
@@ -189,21 +194,8 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
 </section>
 
 
-<footer class="mbr-section mbr-section--relative mbr-section--fixed-size" id="footer1-20" style="background-color:#2c2c2c;">
-    
-    <div class="mbr-section__container container">
-        <div class="mbr-footer mbr-footer--wysiwyg row">
-            <div class="col-sm-12">
-                <p class="mbr-footer__copyright"><br>
-                <a href="http://gabevirnig.com" class="mbr-buttons__link text-white">HOME</a><br/>
-                <a href="photography.html" class="mbr-buttons__link text-white">PHOTOGRAPHY</a><br/>
-                <a href="video.html" class="mbr-buttons__link text-white">VIDEO</a><br/>
-                <a href="weddings.html" class="mbr-buttons__link text-white">WEDDINGS</a><br/>
-                <br>2016&nbsp;Ⓒ GABE VIRNIG</p>
-            </div>
-        </div>
-    </div>
-</footer>
+<div id="footerpage"></div>
+
   <script src="assets/jquery/jquery.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   <script src="assets/smooth-scroll/SmoothScroll.js"></script>
