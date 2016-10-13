@@ -7,10 +7,9 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
 	<style>img{height:100px;float:left;}</style>
   <script>
     $(document).ready(function(){
-      $("#button").click(function(){
 	     $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",
 		{      
-		     tags: "sun",
+		     tags: "tree",
 		     tagmode: "any",
 		     format: "json"
 		}, function(data){
@@ -19,8 +18,6 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
 		     	   if(i==3) return false;
       			})
 		});
-	    
-      });
     });
   </script>
   
