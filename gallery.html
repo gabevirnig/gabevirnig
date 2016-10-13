@@ -119,8 +119,10 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
 	     $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?id=125573694@N07&lang=en-us&format=json&jsoncallback=?",{tags: "favorite"},
 		 function(data){
   $.each(data.items, function(i,item){
-    $("<img/>").attr("src", item.media.m).appendTo("#images")
-      .wrap("<a href='" + item.link + "'></a>").css("padding", "10px").addClass("class");
+    $("<img/>").attr("src", item.media.m).appendTo("#favgallery")
+      .wrap("<a href='" + item.link + "'></a>").css("padding", "10px").addClass("class")
+    .wrap("<div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item'><a href='#lb-gallery1-11' data-slide-to='#' data-toggle='modal'><img alt='' src='" + item.link + "'><span class='icon glyphicon glyphicon-zoom-in'></span></a></div>")
+    ;
   });
 });
     });
@@ -133,172 +135,7 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
     <div class=" container mbr-gallery-layout-default" style="padding-top:0px;">
         <div>
             <div class="row mbr-gallery-row">
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="0" data-toggle="modal">
-                        <img alt="" src="assets/images/emma4163x2775-1682000x1333-196.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="1" data-toggle="modal">
-                        <img alt="" src="assets/images/img-23534272x2848-1492000x1333-167.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="2" data-toggle="modal">
-                        <img alt="" src="assets/images/22879714735-040f7dbfb5-o4068x2712-1802000x1333-169.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="3" data-toggle="modal">
-                        <img alt="" src="assets/images/22853757476-0c16c6b06c-o4272x2848-1652000x1333-168.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="4" data-toggle="modal">
-                        <img alt="" src="assets/images/22257194834-4aec0e6e7e-o4083x2722-1962000x1333-122.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="5" data-toggle="modal">
-                        <img alt="" src="assets/images/284272x2848-1952000x1333-105.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="6" data-toggle="modal">
-                        <img alt="" src="assets/images/274272x2848-1712000x1333-124.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="7" data-toggle="modal">
-                        <img alt="" src="assets/images/264272x2848-1862000x1333-108.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="8" data-toggle="modal">
-                        <img alt="" src="assets/images/254272x2848-1512000x1333-154.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="9" data-toggle="modal">
-                        <img alt="" src="assets/images/243685x2457-1742000x1334-124.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="10" data-toggle="modal">
-                        <img alt="" src="assets/images/234272x2848-1752000x1333-170.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="11" data-toggle="modal">
-                        <img alt="" src="assets/images/224272x2848-1332000x1333-163.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="12" data-toggle="modal">
-                        <img alt="" src="assets/images/214272x2848-1292000x1333-199.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="13" data-toggle="modal">
-                        <img alt="" src="assets/images/204272x2848-1582000x1333-194.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="14" data-toggle="modal">
-                        <img alt="" src="assets/images/194272x2848-1522000x1333-113.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="15" data-toggle="modal">
-                        <img alt="" src="assets/images/184081x2719-1352000x1333-199.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="16" data-toggle="modal">
-                        <img alt="" src="assets/images/172002x1335-1462000x1334-157.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="17" data-toggle="modal">
-                        <img alt="" src="assets/images/164272x2848-1712000x1333-123.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="18" data-toggle="modal">
-                        <img alt="" src="assets/images/154272x2848-1172000x1333-103.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="19" data-toggle="modal">
-                        <img alt="" src="assets/images/143458x2306-1942000x1334-148.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="20" data-toggle="modal">
-                        <img alt="" src="assets/images/134272x2848-1772000x1333-118.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="21" data-toggle="modal">
-                        <img alt="" src="assets/images/124272x2848-1832000x1333-111.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="22" data-toggle="modal">
-                        <img alt="" src="assets/images/114272x2848-1832000x1333-125.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="23" data-toggle="modal">
-                        <img alt="" src="assets/images/104272x2848-1592000x1333-162.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="24" data-toggle="modal">
-                        <img alt="" src="assets/images/094272x2848-1022000x1333-178.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="25" data-toggle="modal">
-                        <img alt="" src="assets/images/084177x2785-1862000x1333-107.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="26" data-toggle="modal">
-                        <img alt="" src="assets/images/074272x2848-1942000x1333-165.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="27" data-toggle="modal">
-                        <img alt="" src="assets/images/064272x2848-1802000x1333-132.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="28" data-toggle="modal">
-                        <img alt="" src="assets/images/054272x2848-1392000x1333-184.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="29" data-toggle="modal">
-                        <img alt="" src="assets/images/044272x2848-1602000x1333-165.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="30" data-toggle="modal">
-                        <img alt="" src="assets/images/034272x2848-1722000x1333-161.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="31" data-toggle="modal">
-                        <img alt="" src="assets/images/024272x2848-1582000x1333-184.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-                    <a href="#lb-gallery1-11" data-slide-to="32" data-toggle="modal">
-                        <img alt="" src="assets/images/014272x2848-1082000x1333-172.jpg">
-                        <span class="icon glyphicon glyphicon-zoom-in"></span>
-                    </a>
-                </div>
+		    <div id="favgallery"></div>
             </div>
         </div>
         <div class="clearfix"></div>
