@@ -7,7 +7,7 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
 	<style>.class{height:40px;float:left;}</style>
   <script>
     $(document).ready(function(){
-	     $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?id=125573694@N07&lang=en-us&format=json&jsoncallback=?",{tags: "sky"},
+	     $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?id=125573694@N07&lang=en-us&format=json&jsoncallback=?",{tags: "favorite"},
 		 function(data){
   $.each(data.items, function(i,item){
     $("<img/>").attr("src", item.media.m).appendTo("#images")
