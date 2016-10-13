@@ -4,13 +4,13 @@ xmlns:og="http://ogp.me/ns#"
 xmlns:fb="http://www.facebook.com/2008/fbml">
 <head>
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
-	<style>img{height:100px;float:left;}</style>
+	<style>.gabe{height:100px;float:left;}</style>
   <script>
     $(document).ready(function(){
 	     $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?id=125573694@N07&lang=en-us&format=json&jsoncallback=?", function(data){
   $.each(data.items, function(i,item){
     $("<img/>").attr("src", item.media.m).appendTo("#images")
-      .wrap("<a href='" + item.link + "'></a>");
+      .wrap("<a href='" + item.link + "'></a>").addClass("gabe");
   });
 });
     });
