@@ -7,9 +7,9 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
 	<style>img{height:100px;float:left;}</style>
   <script>
     $(document).ready(function(){
-	     $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",
+	     $.getJSON("http://api.flickr.com/services/rest/?&method=flickr.photosets.getPhotos&api_key=a7f8002b43212b6969dcb1a5af593ed8&photoset_id=72157658850720470=&format=json&jsoncallback=?",
 		{      
-		     tags: "tree",
+		     tags: "plant",
 		     tagmode: "any",
 		     format: "json"
 		}, function(data){
