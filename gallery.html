@@ -9,7 +9,6 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
     $(document).ready(function(){
 	     $.getJSON("http://api.flickr.com/services/rest/?&method=flickr.photosets.getPhotos&api_key=a7f8002b43212b6969dcb1a5af593ed8&photoset_id=72157658850720470&jsoncallback=?",
 		{      
-		     tags: "plant",
 		     tagmode: "any",
 		     format: "json"
 		}, function(data){
