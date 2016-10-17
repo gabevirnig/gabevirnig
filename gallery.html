@@ -122,6 +122,7 @@ $(document).ready(function() {
             tags: "favorite"
         }, function(data) {
             $.each(data.items, function(i, item) {
+		var imageLink = item.media.m.replace('_m', '_c'); 
                 $("<img/>").addClass("class").attr("src", item.media.m).appendTo(
                     "#favgallery").wrap(
                     "<div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item'><a href='"+ item.media.m +"' target='_blank'><img class='flickrthumb' alt='' src='"+ item.media.m +"'><span class='icon glyphicon glyphicon-zoom-in'></span></a></div>"
@@ -173,8 +174,6 @@ $(document).ready(function() {
         </div>
     </div>
 </section>
-	
-	<p>http://jsbin.com/qujojuriri/1/edit?html,js,output</P>
 
 
 <div id="footerpage"></div>
