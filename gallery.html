@@ -121,10 +121,10 @@ $(document).ready(function() {
         "http://api.flickr.com/services/feeds/photos_public.gne?id=125573694@N07&lang=en-us&format=json&jsoncallback=?", {
             tags: "favorite"
         }, function(data) {
-            $.each(data.items, function(i, item) {
+            $.each(data.items:first, function(i, item) {
                 $("<img/>").attr("src", item.media.m).appendTo(
                     "#favgallery").css("padding",
-                    "10px").addClass("class").first().wrap(
+                    "10px").addClass("class").wrap(
                     "<div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item'><a href='#lb-gallery1-11' data-slide-to='0' data-toggle='modal'><img alt='' src='"+ item.media.m +"'><span class='icon glyphicon glyphicon-zoom-in'></span></a></div>"
                 );
             });
