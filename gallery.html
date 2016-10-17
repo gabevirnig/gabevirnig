@@ -125,7 +125,7 @@ $(document).ready(function() {
 		var imageLink = item.media.m.replace('_m', '_c'); 
                 $("<img/>").addClass("class").attr("src", item.media.m).appendTo(
                     "#favgallery").wrap(
-                    "<div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item'><a href='"+ item.link +"' target='_blank'><img src='"+ imageLink +"'></a></div>"
+                    "<div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item'><a href='"+ item.link +"' target='_blank'><img src='"+ imageLink +"'><span class='icon glyphicon glyphicon-zoom-in'></span></a></div>"
                 );
             });
         });
