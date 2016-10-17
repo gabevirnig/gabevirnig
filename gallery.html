@@ -124,19 +124,7 @@ $(document).ready(function() {
             $.each(data.items, function(i, item) {
                 $("<img/>").addClass("class").attr("src", item.media.m).appendTo(
                     "#favgallery").wrap(
-                    "<div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item'><a href='#lb-gallery1-11' data-slide-to='0' data-toggle='modal'><img alt='' src='"+ item.media.m +"'><span class='icon glyphicon glyphicon-zoom-in'></span></a></div>"
-                );
-            });
-        });
-	
-    $.getJSON(
-        "http://api.flickr.com/services/feeds/photos_public.gne?id=125573694@N07&lang=en-us&format=json&jsoncallback=?", {
-            tags: "favorite"
-        }, function(data) {
-            $.each(data.items, function(i, item) {
-                $("<img/>").attr("src", item.media.m).appendTo(
-                    "#favlight").wrap(
-                    "<div class='item'><img alt='' src='"+ item.media.m +"'></div>"
+                    "<div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item'><a href='#' data-slide-to='0' data-toggle='modal'><img alt='' src='"+ item.media.m +"'><span class='icon glyphicon glyphicon-zoom-in'></span></a></div>"
                 );
             });
         });
