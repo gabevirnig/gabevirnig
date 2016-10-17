@@ -124,13 +124,13 @@ $(document).ready(function() {
             $.each(data.items, function(i, item) {
                 $("<img/>").addClass("class").attr("src", item.media.m).appendTo(
                     "#favgallery").wrap(
-                    "<div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item'><a href='"+ item.link +"' target='_blank'><img class='flickrthumb' alt='' src='"+ item.media.m +"'><span class='icon glyphicon glyphicon-zoom-in'></span></a></div>"
+                    "<div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item'><a href='"+ item.media.m +"' target='_blank'><img class='flickrthumb' alt='' src='"+ item.media.m +"'><span class='icon glyphicon glyphicon-zoom-in'></span></a></div>"
                 );
             });
         });
 	
-	$('.flickrthumb').each(function(){
-        this.src = this.src.replace('_m.jpg', '_z.jpg');
+	$('a').each(function(){
+        this.href = this.href.replace('_m.jpg', '_z.jpg');
     });
 
 });
